@@ -5,5 +5,15 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+# [features]
+# default = []
+# debug = ["colored", "bevy-inspector-egui"]
+
 [dependencies]
 bevy = "0.8.1"
+
+# colored = { version = "2.0.0", optional = true }
+# bevy-inspector-egui = { version = "0.13.0", optional = true }
+
+colored = "2.0.0"
+bevy-inspector-egui = "0.13.0"
